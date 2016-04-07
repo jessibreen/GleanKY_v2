@@ -1,6 +1,5 @@
 // create map with Mapbox Streets tilelayer
-// accessToken should be changed to one for GleanKY instead of Jessi's account
-L.mapbox.accessToken = 'pk.eyJ1IjoiamVzc2licmVlbiIsImEiOiJGNnlGVkRrIn0.Ar8l7jFbPYG3SWR-DrTyNQ';
+L.mapbox.accessToken = 'pk.eyJ1IjoidG9kZGdsZWFua3kiLCJhIjoiY2ltcW16OXdzMDBqb3Vwa2toNm9pb200NiJ9.hwTEGkXsOWDrBgFO8jzQfQ';
 // Replace 'mapbox.streets' with your map id.
 var mapboxTiles = L.tileLayer('https://api.mapbox.com/v4/mapbox.streets/{z}/{x}/{y}.png?access_token=' + L.mapbox.accessToken, {
     attribution: '© <a href="https://www.mapbox.com/map-feedback/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
